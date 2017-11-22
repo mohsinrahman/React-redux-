@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+.header-menu {
+  background: #333;
+  height: 90px; }
+  .header-menu .header-menu__list {
+    background: #333; }
+  .header-menu .header-menu__item {
+    padding: 10px; }
+    .header-menu .header-menu__item .header-menu__link {
+      color: #fff !important;
+      letter-spacing: 2px; }
+  .header-menu .header-menu__nav--logo {
+    width: 3em;
+    height: 3em;
+    margin: 10px 20px; }
+
+.hero-section {
+  background: #950d0d;
+  color: #fff; }
+  .hero-section .hero-section__button--white {
+    color: #950d0d;
+    background-color: #fff; }
+  .hero-section .hero-section__button--white:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff; }
+  .hero-section .hero-section__button--hollow {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 18px; }
+  .hero-section .hero-section__button--hollow:hover {
+    color: #950d0d;
+    background-color: #fff;
+    border: 1px solid #fff; }
+  .hero-section .hero-section__site--logo {
+    background-image: url(./images/kmit-logo-2366d0058f.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-indent: -999em;
+    height: 2.5em;
+    width: 2.5em;
+    margin: 0 auto; }

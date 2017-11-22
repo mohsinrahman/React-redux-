@@ -1,0 +1,20 @@
+.header-menu{
+  background: #333;
+  height: 90px;
+  .header-menu__list{
+    background: #333;
+  }
+  .header-menu__item{
+    padding: 10px;
+    .header-menu__link{
+        color: #fff !important;
+        letter-spacing: 2px;
+    }
+  }
+ .header-menu__nav--logo{
+   width: 3em;
+   height: 3em;
+    margin: 10px 20px;
+ }
+
+}
